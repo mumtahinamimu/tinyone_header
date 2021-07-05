@@ -1,0 +1,100 @@
+/*======================================
+Font integrated CSS
+========================================*/
+ont-face{
+	font-family: PTSans-Regular;
+	src: url("fonts/PT_Sans/PTSans-Regular.ttf");
+}
+
+@font-face{
+	font-family: PTSans-Bold;
+	src: url("fonts/PT_Sans/PTSans-Bold.ttf");
+}
+
+@font-face{
+	font-family: Helvetica-Neue-Bold;
+	src: url("fonts/Helvetica-Neue-Bold/Helvetica-Neue-Bold.ttf");
+}
+
+/*======================================
+Common CSS
+========================================*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: PTSans-Regular;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #010101;
+}
+
+.container{
+	margin: 0 auto;
+	width: 70%;
+	max-width: 960px;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+/*======================================
+header area CSS
+========================================*/
+.banner_with_nav{
+	height: 742px;
+	background-color: #fcdb00;
+}
+
+header{
+	padding: 52px 0;
+}
+
+.navbar{
+	overflow: hidden;
+}
+/*logo start*/
+.logo{
+	float: left;
+	width: 20%;
+	max-width: 160px;
+	max-height: 48px;
+}
+/*logo end*/
+
+/*menu start*/
+.menu{
+	float: right;
+	width: 70%;
+	padding-top: 10px;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+
+.menu ul li{
+	float: left;
+	display: inline-block;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	margin-right: 75px;
+	text-transform: capitalize;
+	font-family: Helvetica-Neue-Bold;
+	font-size: 22px;
+	color: #010101;
+}
+
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*menu end*/
